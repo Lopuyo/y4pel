@@ -1,525 +1,155 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>YOUTH FOR PELINDABA (Y4Pel)</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-<link rel="stylesheet" href="style.css"></head>
-<body>
-<div class="logo">
-    <img src="images/logo.png" alt="Y4Pel Logo">
-    <h2>Youth for Pelindaba (Y4Pel)</h2>
-</div>
-
-
-<header>
-
-<nav>
-
-<div class="logo">
-
-<img src="images/logo.png" alt="Y4Pel Logo">
-
-<h2>Youth For Pelinda (Y4Pel)</h2>
-
-</div>
-
-<div class="menu-toggle" id="menu-toggle">
-☰
-</div>
-
-<ul id="menu">
-
-<li><a href="#home">Home</a></li>
-
-<li><a href="#about">About</a></li>
-
-<li><a href="#focus">Focus Areas</a></li>
-
-<li><a href="#Network">Our Network</a></li>
-
-<li><a href="#join">Join Us</a></li>
-
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-</nav>
-
-</header>
-
-<section id="home" class="hero">
-<h1>Empowering Africa's Youth for a Nuclear-Weapon-Free Future</h1>
-<p>Africa's First Youth Platform Dedicated To Advancing The Vision Of The Treaty Of Pelindaba</p>
-<a class="btn" href="#join">Join the Movement</a>
-</section>
-<section id="about"><h2>About</h2><p>Y4Pel is a pan-African youth-led initiative advancing the Treaty of Pelindaba through education, dialogue, research, leadership and partnerships.</p></section>
-
-<!-- ==========================
-     Y4PEL ACROSS AFRICA
-========================== -->
-
-<section id="africa">
-
-    <div class="container">
-
-        <h2>Y4Pel Across Africa</h2>
-
-        <p class="africa-text">
-
-            Youth for Pelindaba is building a continent-wide network of young
-            leaders committed to advancing peace, nuclear disarmament,
-            radiation safety, and the peaceful uses of nuclear science and
-            technology.
-
-            Our goal is simple:
-
-            <strong>Representation from every African country.</strong>
-
-        </p>
-
-       <div class="africa-map-container">
-
-    <object
-        id="africa-svg"
-        data="images/africa-map.svg"
-        type="image/svg+xml">
-    </object>
-
-</div>
-
-        <div class="africa-stats">
-
-            <div class="stat-card">
-
-                <h3>54</h3>
-
-                <p>African Countries</p>
-
-            </div>
-
-            <div class="stat-card">
-
-                <h3 id="country-count">8</h3>
-            <p>Countries Represented</p>
-
-            </div>
-
-            <div class="stat-card">
-
-                <h3 id="member-count">11</h3>
-            <p>Registered Members</p>
-
-            </div>
-
-
-    </div>
-
-</section>
-
-<!-- Founder Section -->
-
-<section id="founder">
-
-    <div class="founder-container">
-
-        <div class="founder-image">
-
-            <img src="images/founder.jpg" alt="Founder of Y4Pel">
-
-        </div>
-
-        <div class="founder-content">
-
-            <h2>Meet the Founder</h2>
-
-            <h3>Lopuyo Paulo Lokwawi</h3>
-
-            <p class="title">
-                Founder, Youth for Pelindaba (Y4Pel)
-            </p>
-
-            <p>
-                Lopuyo Paulo Lokwawi is a physicist, health scientist, and advocate for nuclear disarmament, radiation safety, and youth engagement in Africa.
-                He is the Founder of Youth for Pelindaba (Y4Pel), a pan-African initiative dedicated to advancing the vision and objectives of the Treaty of Pelindaba by empowering young people through education, dialogue, research, leadership, and international collaboration.
-                <p>
-Paulo is a
-<a href="https://disarmament.unoda.org/" target="_blank" rel="noopener noreferrer">
-United Nations Office for Disarmament Affairs (UNODA)
-</a>
-Youth Leader for a World Without Nuclear Weapons, a participant in the
-<a href="https://www.icanw.org/2026_hiroshima_ican_academy" target="_blank" rel="noopener noreferrer">
-Hiroshima-ICAN Academy
-</a>,
-and a member of the
-<a href="https://nuclearsocietyofkenya.org/" target="_blank" rel="noopener noreferrer">
-Nuclear Society of Kenya
-</a>.
-</p>
-                His work focuses on bridging nuclear science, public health, and policy to promote the peaceful uses of nuclear technology, strengthen radiation safety awareness, and inspire the next generation of African leaders committed to a peaceful, secure, and nuclear-weapon-free Africa.
-            </p>
-
-            <a href="https://www.linkedin.com/in/lopuyo-paulo-lokwawi/" target="_blank" class="btn">
-                Connect on LinkedIn
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="focus"><h2>Focus Areas</h2>
-
-<div class="grid">
-
-    <div class="card">
-
-        <i class="fa-solid fa-dove"></i>
-
-        <h3>Peace</h3>
-
-        <p>
-            Advancing nuclear disarmament, non-proliferation,
-            and a peaceful Africa.
-        </p>
-
-    </div>
-
-    <div class="card">
-
-        <i class="fa-solid fa-atom"></i>
-
-        <h3>Science</h3>
-
-        <p>
-            Promoting the peaceful uses of nuclear science
-            and technology.
-        </p>
-
-    </div>
-
-    <div class="card">
-
-        <i class="fa-solid fa-users"></i>
-
-        <h3>Leadership</h3>
-
-        <p>
-            Empowering young Africans to become leaders
-            and changemakers.
-        </p>
-
-    </div>
-
-    <div class="card">
-
-        <i class="fa-solid fa-scale-balanced"></i>
-
-        <h3>Policy</h3>
-
-        <p>
-            Supporting science diplomacy,
-            policy dialogue,
-            and advocacy.
-        </p>
-
-    </div>
-
-</div>
-
-
-<!-- =========================
-     OUR NETWORK
-========================== -->
-
-<section id="Network">
-
-    <div class="container">
-
-        <h2>Our Network</h2>
-
-        <p class="partner-grid">
-
-        Y4Pel seeks to collaborate with institutions, youth networks,
-        professional societies, academia, and international organizations
-        committed to advancing peace, nuclear disarmament, science diplomacy,
-        and the peaceful uses of nuclear science and technology.
-
-        </p>
-
-        <div class="partner-grid">
-
-            
-            <div class="partner-card">
-    <a href="https://IAEA.org" target="_blank">
-        <img src="images/IAEA.png" alt="IAEA">
-    </a>
-</div>
-            <div class="partner-card">
-    <a href="https://disarmament.unoda.org" target="_blank">
-        <img src="images/UNODA.png" alt="UNODA">
-    </a>
-</div>
-
-<div class="partner-card">
-    <a href="https://www.afcone.org" target="_blank">
-        <img src="images/AFCONE.png" alt="AFCONE">
-    </a>
-</div>
-
-<div class="partner-card">
-    <a href="https://www.ctbto.org" target="_blank">
-        <img src="images/CTBTO.png" alt="CTBTO">
-    </a>
-</div>
-
-<div class="partner-card">
-    <a href="https://www.icanw.org" target="_blank">
-        <img src="images/ICAN.png" alt="ICAN">
-    </a>
-</div>
-
-<div class="partner-card">
-    <a href="https://nuclearsocietyofkenya.org/" target="_blank">
-        <img src="images/NSK.png" alt="Nuclear Society of Kenya">
-    </a>
-</div>
-        </div>
-
-    </div>
-
-</section>
-
-</section>
-<section id="join">
-
-<h2>Join Youth for Pelindaba (Y4Pel)</h2>
-
-<p>
-Become part of a pan-African network of students, professionals,
-researchers and peace advocates working towards a Nuclear-Weapon-Free Africa.
-</p>
-
-<form id="join-form" class="join-form">
-
-<div class="form-row">
-
-<div class="form-group">
-<label for="name">Full Name</label>
-<input id="name" name="name" type="text" required>
-</div>
-
-<div class="form-group">
-<label for="email">Email Address</label>
-<input id="email" name="email" type="email" required>
-</div>
-
-</div>
-
-<div class="form-row">
-
-<div class="form-group">
-<label for="country">Country</label>
-
-<select id="country" name="country" required>
-
-<option value="">Select Country</option>
-
-<option>Algeria</option>
-<option>Angola</option>
-<option>Benin</option>
-<option>Botswana</option>
-<option>Burkina Faso</option>
-<option>Burundi</option>
-<option>Cabo Verde</option>
-<option>Cameroon</option>
-<option>Central African Republic</option>
-<option>Chad</option>
-<option>Comoros</option>
-<option>Democratic Republic of the Congo</option>
-<option>Republic of the Congo</option>
-<option>Côte d'Ivoire</option>
-<option>Djibouti</option>
-<option>Egypt</option>
-<option>Equatorial Guinea</option>
-<option>Eritrea</option>
-<option>Eswatini</option>
-<option>Ethiopia</option>
-<option>Gabon</option>
-<option>Gambia</option>
-<option>Ghana</option>
-<option>Guinea</option>
-<option>Guinea-Bissau</option>
-<option>Kenya</option>
-<option>Lesotho</option>
-<option>Liberia</option>
-<option>Libya</option>
-<option>Madagascar</option>
-<option>Malawi</option>
-<option>Mali</option>
-<option>Mauritania</option>
-<option>Mauritius</option>
-<option>Morocco</option>
-<option>Mozambique</option>
-<option>Namibia</option>
-<option>Niger</option>
-<option>Nigeria</option>
-<option>Rwanda</option>
-<option>Sao Tome and Principe</option>
-<option>Senegal</option>
-<option>Seychelles</option>
-<option>Sierra Leone</option>
-<option>Somalia</option>
-<option>South Africa</option>
-<option>South Sudan</option>
-<option>Sudan</option>
-<option>Tanzania</option>
-<option>Togo</option>
-<option>Tunisia</option>
-<option>Uganda</option>
-<option>Zambia</option>
-<option>Zimbabwe</option>
-
-<option>Other / Outside Africa</option>
-
-</select>
-
-</div>
-
-<div class="form-group">
-
-<label for="institution">
-
-University / Organization
-
-</label>
-
-<input id="institution" name="institution" type="text">
-
-</div>
-
-</div>
-
-<div class="form-group">
-
-<label for="interest">
-
-Area of Interest
-
-</label>
-
-<select id="interest" name="interest" required>
-
-<option value="">Select</option>
-
-<option>Nuclear Disarmament</option>
-<option>Peace & Security</option>
-<option>Radiation Safety</option>
-<option>Nuclear Science & Technology</option>
-<option>Youth Leadership</option>
-<option>Research</option>
-<option>Advocacy</option>
-<option>Partnership</option>
-<option>Volunteering</option>
-
-</select>
-
-</div>
-
-<div class="form-group">
-
-<label for="motivation">
-
-Why would you like to join Y4Pel?
-
-</label>
-
-<textarea
-id="motivation" name="motivation"
-rows="6"
-required></textarea>
-
-</div>
-
-<button
-type="submit"
-class="btn">
-
-Join Y4Pel
-
-</button>
-
-</form>
-
-</section>
-
-<!-- Newsletter Section -->
-
-<section id="newsletter">
-
-    <div class="newsletter-container">
-
-        <h2>Stay Connected</h2>
-
-        <p>
-            Subscribe to the Y4Pel Newsletter and receive the latest news,
-            educational resources, events, research, and opportunities related
-            to the Treaty of Pelindaba, nuclear disarmament, science diplomacy,
-            and the peaceful uses of nuclear science and technology across Africa.
-        </p>
-
-        <form>
-
-            <input
-                type="email"
-                placeholder="Enter your email address"
-                required
-            >
-
-            <button type="submit">
-                Subscribe
-            </button>
-
-        </form>
-
-    </div>
-
-</section>
-
-<footer id="contact">
-
-    <h3>Contact</h3>
-
-    <p>Email: y4pel.africa@gmail.com</p>
-
-    <p>Peace • Science • Leadership</p>
-
-    <hr>
-
-    <p class="copyright">
-        © 2026 Youth for Pelindaba (Y4Pel). All Rights Reserved. | Designed & Developed by Lopuyo Paulo Lokwawi
-    </p>
-
-</footer>
-<script src="script.js"></script>
-
-<!-- EmailJS Library -->
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-<!-- Initialize EmailJS -->
-<script>
+console.log('Welcome to Y4Pel');
+const toggle = document.getElementById("menu-toggle");
+const menu = document.getElementById("menu");
+
+toggle.addEventListener("click", () => {
+    menu.classList.toggle("active");
+});
+// Initialize EmailJS
 emailjs.init({
     publicKey: "mPtG-juUfLF4XwRfW"
 });
-</script>
 
-<!-- Your Website JavaScript -->
-<script src="script.js"></script>
+const form = document.getElementById("join-form");
 
-<!-- EmailJS Form Handler -->
-<script src="js/email.js"></script>
+form.addEventListener("submit", function (e) {
 
-</body>
+    e.preventDefault();
 
+    const button = form.querySelector("button");
 
-</body></html>
+    button.disabled = true;
+    button.innerHTML = "Submitting...";
+
+    emailjs.send("service_2lnoh7n", "template_zky8pls", {
+        name: form.name.value,
+        email: form.email.value,
+        country: form.country.value,
+        institution: form.institution.value,
+        interest: form.interest.value,
+        motivation: form.motivation.value
+    })
+
+    .then(function () {
+
+        return emailjs.send("service_2lnoh7n", "template_bv3b9fr", {
+            name: form.name.value,
+            email: form.email.value,
+            country: form.country.value,
+            institution: form.institution.value,
+            interest: form.interest.value,
+            motivation: form.motivation.value
+        });
+
+    })
+
+    .then(function () {
+
+        alert("Thank you for joining Youth for Pelindaba (Y4Pel)! A confirmation email has been sent to your inbox.");
+
+        form.reset();
+
+    })
+
+    .catch(function (error) {
+
+        console.error(error);
+
+        alert("Submission failed. Please try again.");
+
+    })
+
+    .finally(function () {
+
+        button.disabled = false;
+        button.innerHTML = "Join Y4Pel";
+
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const object = document.getElementById("africa-svg");
+
+    const members = {
+
+        KE:3,
+        SS:2,
+        ZW:1,
+        ZM:1,
+        UG:1,
+        NG:1,
+        DZ:1,
+        BJ:1
+
+    };
+
+    const names = {
+
+        KE:"Kenya",
+        SS:"South Sudan",
+        ZW:"Zimbabwe",
+        ZM:"Zambia",
+        UG:"Uganda",
+        NG:"Nigeria",
+        DZ:"Algeria",
+        BJ:"Benin"
+
+    };
+
+    const tooltip = document.createElement("div");
+
+    tooltip.id="map-tooltip";
+
+    document.body.appendChild(tooltip);
+
+    object.addEventListener("load",()=>{
+
+        const svgDoc = object.contentDocument;
+
+        Object.keys(members).forEach(code=>{
+
+            const country = svgDoc.getElementById(code);
+
+            if(!country) return;
+
+            country.style.fill="#0B6E4F";
+
+            country.style.cursor="pointer";
+
+            country.style.transition="0.3s";
+
+            country.addEventListener("mouseenter",(e)=>{
+
+                country.style.fill="#F2C94C";
+
+                tooltip.style.opacity=1;
+
+                tooltip.innerHTML=
+                    "🌍 <strong>"+names[code]+"</strong><br>" +
+                    "Members: "+members[code];
+
+            });
+
+            country.addEventListener("mousemove",(e)=>{
+
+                tooltip.style.left=e.pageX+18+"px";
+
+                tooltip.style.top=e.pageY-20+"px";
+
+            });
+
+            country.addEventListener("mouseleave",()=>{
+
+                country.style.fill="#0B6E4F";
+
+                tooltip.style.opacity=0;
+
+            });
+
+        });
+
+    });
+
+});

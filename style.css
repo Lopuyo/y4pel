@@ -987,4 +987,42 @@ font-size:32px;
     white-space:pre-line;
 
 }
+/* ==========================
+   LATEST NEWS
+========================== */
 
+#latest-news{
+
+padding:80px 10%;
+
+background:#f8f9fa;
+
+text-align:center;
+
+}
+
+.linkedin-post{
+
+max-width:700px;
+
+margin:40px auto;
+
+background:#fff;
+
+padding:20px;
+
+border-radius:18px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.linkedin-post iframe{
+
+width:100%;
+
+height:700px;
+
+border:none;
+
+}

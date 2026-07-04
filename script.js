@@ -15,7 +15,7 @@ const form = document.getElementById("join-form");
 form.addEventListener("submit", function (e) {
 
     e.preventDefault();
-
+    
     const button = form.querySelector("button");
 
     button.disabled = true;

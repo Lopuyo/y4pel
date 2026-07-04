@@ -77,13 +77,15 @@
 
         </p>
 
-        <div class="africa-map-container">
+       <div class="africa-map-container">
 
-         <img src="images/africa-map.svg" class="africa-map"
-          alt="Africa Map"
-        class="africa-map">
+    <object
+        id="africa-svg"
+        data="images/africa-map.svg"
+        type="image/svg+xml">
+    </object>
 
-        </div>
+</div>
 
         <div class="africa-stats">
 
@@ -97,21 +99,18 @@
 
             <div class="stat-card">
 
-                <h3>8</h3>
-
-                <p>Countries Represented</p>
+                <h3 id="country-count">8</h3>
+            <p>Countries Represented</p>
 
             </div>
 
             <div class="stat-card">
 
-                <h3>18</h3>
-
-                <p>Registered Members</p>
+                <h3 id="member-count">11</h3>
+            <p>Registered Members</p>
 
             </div>
 
-        </div>
 
     </div>
 
@@ -521,5 +520,6 @@ emailjs.init({
 <script src="js/email.js"></script>
 
 </body>
+
 
 </body></html>

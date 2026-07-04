@@ -938,3 +938,53 @@ font-size:32px;
 }
 
 }
+
+
+.africa-map-container{
+
+    width:100%;
+
+    max-width:950px;
+
+    margin:auto;
+
+}
+
+#africa-svg{
+
+    width:100%;
+
+    height:auto;
+
+    min-height:600px;
+
+}
+
+/* Tooltip */
+
+#map-tooltip{
+
+    position:absolute;
+
+    background:#12355B;
+
+    color:white;
+
+    padding:10px 14px;
+
+    border-radius:8px;
+
+    font-size:14px;
+
+    pointer-events:none;
+
+    opacity:0;
+
+    transition:.2s;
+
+    z-index:999;
+
+    white-space:pre-line;
+
+}
+

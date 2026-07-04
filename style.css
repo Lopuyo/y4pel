@@ -1027,3 +1027,41 @@ height:700px;
 border:none;
 
 }
+
+.footer-social{
+    margin-top:40px;
+    text-align:center;
+}
+
+.footer-social h4{
+    color:#fff;
+    margin-bottom:15px;
+    font-size:1.2rem;
+}
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.social-icons a{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    background:#ffffff22;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.4rem;
+    transition:.3s;
+    text-decoration:none;
+}
+
+.social-icons a:hover{
+    background:#f4b400;
+    color:#0f5b3d;
+    transform:translateY(-4px);
+}

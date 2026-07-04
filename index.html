@@ -54,6 +54,69 @@
 </section>
 <section id="about"><h2>About</h2><p>Y4Pel is a pan-African youth-led initiative advancing the Treaty of Pelindaba through education, dialogue, research, leadership and partnerships.</p></section>
 
+<!-- ==========================
+     Y4PEL ACROSS AFRICA
+========================== -->
+
+<section id="africa">
+
+    <div class="container">
+
+        <h2>Y4Pel Across Africa</h2>
+
+        <p class="africa-text">
+
+            Youth for Pelindaba is building a continent-wide network of young
+            leaders committed to advancing peace, nuclear disarmament,
+            radiation safety, and the peaceful uses of nuclear science and
+            technology.
+
+            Our goal is simple:
+
+            <strong>Representation from every African country.</strong>
+
+        </p>
+
+        <div class="africa-map-container">
+
+            <img
+            src="images/africa-map.svg"
+            alt="Africa Map"
+            class="africa-map">
+
+        </div>
+
+        <div class="africa-stats">
+
+            <div class="stat-card">
+
+                <h3>54</h3>
+
+                <p>African Countries</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>0</h3>
+
+                <p>Countries Represented</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>0</h3>
+
+                <p>Registered Members</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 <!-- Founder Section -->
 
@@ -230,8 +293,167 @@ Nuclear Society of Kenya
 </section>
 
 </section>
-<section id="join"><h2>Join Us</h2><p>Become part of a continental network of students, researchers and young professionals.</p>
-    <a class="btn" href="https://www.linkedin.com/company/youth-for-pelindaba-y4pel/">Get Involved</a></section>
+<section id="join">
+
+<h2>Join Youth for Pelindaba (Y4Pel)</h2>
+
+<p>
+Become part of a pan-African network of students, professionals,
+researchers and peace advocates working towards a Nuclear-Weapon-Free Africa.
+</p>
+
+<form id="join-form" class="join-form">
+
+<div class="form-row">
+
+<div class="form-group">
+<label for="name">Full Name</label>
+<input id="name" name="name" type="text" required>
+</div>
+
+<div class="form-group">
+<label for="email">Email Address</label>
+<input id="email" name="email" type="email" required>
+</div>
+
+</div>
+
+<div class="form-row">
+
+<div class="form-group">
+<label for="country">Country</label>
+
+<select id="country" name="country" required>
+
+<option value="">Select Country</option>
+
+<option>Algeria</option>
+<option>Angola</option>
+<option>Benin</option>
+<option>Botswana</option>
+<option>Burkina Faso</option>
+<option>Burundi</option>
+<option>Cabo Verde</option>
+<option>Cameroon</option>
+<option>Central African Republic</option>
+<option>Chad</option>
+<option>Comoros</option>
+<option>Democratic Republic of the Congo</option>
+<option>Republic of the Congo</option>
+<option>Côte d'Ivoire</option>
+<option>Djibouti</option>
+<option>Egypt</option>
+<option>Equatorial Guinea</option>
+<option>Eritrea</option>
+<option>Eswatini</option>
+<option>Ethiopia</option>
+<option>Gabon</option>
+<option>Gambia</option>
+<option>Ghana</option>
+<option>Guinea</option>
+<option>Guinea-Bissau</option>
+<option>Kenya</option>
+<option>Lesotho</option>
+<option>Liberia</option>
+<option>Libya</option>
+<option>Madagascar</option>
+<option>Malawi</option>
+<option>Mali</option>
+<option>Mauritania</option>
+<option>Mauritius</option>
+<option>Morocco</option>
+<option>Mozambique</option>
+<option>Namibia</option>
+<option>Niger</option>
+<option>Nigeria</option>
+<option>Rwanda</option>
+<option>Sao Tome and Principe</option>
+<option>Senegal</option>
+<option>Seychelles</option>
+<option>Sierra Leone</option>
+<option>Somalia</option>
+<option>South Africa</option>
+<option>South Sudan</option>
+<option>Sudan</option>
+<option>Tanzania</option>
+<option>Togo</option>
+<option>Tunisia</option>
+<option>Uganda</option>
+<option>Zambia</option>
+<option>Zimbabwe</option>
+
+<option>Other / Outside Africa</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label for="institution">
+
+University / Organization
+
+</label>
+
+<input id="institution" name="institution" type="text">
+
+</div>
+
+</div>
+
+<div class="form-group">
+
+<label for="interest">
+
+Area of Interest
+
+</label>
+
+<select id="interest" name="interest" required>
+
+<option value="">Select</option>
+
+<option>Nuclear Disarmament</option>
+<option>Peace & Security</option>
+<option>Radiation Safety</option>
+<option>Nuclear Science & Technology</option>
+<option>Youth Leadership</option>
+<option>Research</option>
+<option>Advocacy</option>
+<option>Partnership</option>
+<option>Volunteering</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label for="motivation">
+
+Why would you like to join Y4Pel?
+
+</label>
+
+<textarea
+id="motivation" name="motivation"
+rows="6"
+required></textarea>
+
+</div>
+
+<button
+type="submit"
+class="btn">
+
+Join Y4Pel
+
+</button>
+
+</form>
+
+</section>
 
 <!-- Newsletter Section -->
 
@@ -281,4 +503,24 @@ Nuclear Society of Kenya
     </p>
 
 </footer>
-<script src="script.js"></script></body></html>
+<script src="script.js"></script>
+
+<!-- EmailJS Library -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- Initialize EmailJS -->
+<script>
+emailjs.init({
+    publicKey: "mPtG-juUfLF4XwRfW"
+});
+</script>
+
+<!-- Your Website JavaScript -->
+<script src="script.js"></script>
+
+<!-- EmailJS Form Handler -->
+<script src="js/email.js"></script>
+
+</body>
+
+</body></html>

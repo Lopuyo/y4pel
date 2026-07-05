@@ -988,9 +988,9 @@ font-size:32px;
     white-space:pre-line;
 
 }
-/* ==========================
-   LATEST NEWS
-========================== */
+/*==========================
+LATEST FROM Y4PEL
+==========================*/
 
 #latest-news{
 
@@ -1002,66 +1002,112 @@ text-align:center;
 
 }
 
-.linkedin-post{
+.section-text{
 
-max-width:700px;
+max-width:850px;
 
-margin:40px auto;
+margin:0 auto 40px;
+
+color:#555;
+
+}
+
+.news-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:35px;
+
+align-items:start;
+
+}
+
+.news-card{
 
 background:#fff;
 
-padding:20px;
+padding:25px;
 
 border-radius:18px;
 
-box-shadow:0 10px 30px rgba(0,0,0,.08);
+box-shadow:0 10px 25px rgba(0,0,0,.08);
 
 }
 
-.linkedin-post iframe{
+.news-card iframe{
 
 width:100%;
 
-height:700px;
+height:720px;
 
 border:none;
 
+border-radius:12px;
+
 }
 
-.footer-social{
-    margin-top:40px;
-    text-align:center;
+.article-cover{
+
+width:100%;
+
+border-radius:10px;
+
+margin-bottom:20px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
 }
 
-.footer-social h4{
-    color:#fff;
-    margin-bottom:15px;
-    font-size:1.2rem;
+.article-tag{
+
+display:inline-block;
+
+background:#0B6E4F;
+
+color:#fff;
+
+padding:6px 14px;
+
+border-radius:20px;
+
+font-size:13px;
+
+margin-bottom:15px;
+
 }
 
-.social-icons{
-    display:flex;
-    justify-content:center;
-    gap:18px;
-    flex-wrap:wrap;
+.news-card h3{
+
+margin:15px 0;
+
+color:#12355B;
+
 }
 
-.social-icons a{
-    width:48px;
-    height:48px;
-    border-radius:50%;
-    background:#ffffff22;
-    color:#fff;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:1.4rem;
-    transition:.3s;
-    text-decoration:none;
+.news-card p{
+
+line-height:1.8;
+
+margin-bottom:25px;
+
+text-align:left;
+
 }
 
-.social-icons a:hover{
-    background:#f4b400;
-    color:#0f5b3d;
-    transform:translateY(-4px);
+@media(max-width:900px){
+
+.news-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.news-card iframe{
+
+height:650px;
+
+}
+
 }

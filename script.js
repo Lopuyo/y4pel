@@ -5,6 +5,16 @@ const menu = document.getElementById("menu");
 toggle.addEventListener("click", () => {
     menu.classList.toggle("active");
 });
+// Close mobile menu after clicking a navigation link
+
+const navLinks = menu.querySelectorAll("a");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("active");
+    });
+});
+
 // Initialize EmailJS
 emailjs.init({
     publicKey: "mPtG-juUfLF4XwRfW"

@@ -1222,3 +1222,22 @@ transform:translateY(-3px);
     height:100%;
     border:none;
 }
+#watch-y4pel{
+    padding:80px 20px;
+    background:#f7faf8;
+    text-align:center;
+}
+
+#watch-y4pel h2{
+    font-size:3rem;
+    color:#0B6E4F;
+    margin-bottom:10px;
+}
+
+.video-intro{
+    font-size:1.1rem;
+    color:#555;
+    max-width:700px;
+    margin:0 auto 30px auto;
+    line-height:1.6;
+}

@@ -1241,3 +1241,37 @@ transform:translateY(-3px);
     margin:0 auto 30px auto;
     line-height:1.6;
 }
+.peace-symbol {
+    position: fixed;
+    top: 18%;
+    left: -60px;
+    z-index: 999;
+    font-size: 75px;
+    color: #0B6E4F;
+    opacity: 0.85;
+    pointer-events: none;
+
+    animation: peaceFloat 18s linear infinite;
+}
+
+@keyframes peaceFloat {
+    0% {
+        transform: translateX(0) translateY(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(25vw) translateY(-25px) rotate(8deg);
+    }
+
+    50% {
+        transform: translateX(50vw) translateY(20px) rotate(-5deg);
+    }
+
+    75% {
+        transform: translateX(75vw) translateY(-20px) rotate(6deg);
+    }
+
+    100% {
+        transform: translateX(110vw) translateY(0) rotate(0deg);
+    }
+}

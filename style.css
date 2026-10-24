@@ -1294,3 +1294,152 @@ transform:translateY(-3px);
         transform: translateX(110vw) translateY(0) scaleX(-1);
     }
 }
+
+/* ==========================
+   Y4PEL FOOTER — FINAL ORDER
+========================== */
+
+footer#contact {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 38px 6% 28px;
+    background: #12355B;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* 1. Contact details */
+footer#contact > h3 {
+    order: 1;
+    margin: 0 0 12px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer#contact > p:not(.copyright) {
+    order: 2;
+    margin: 0 0 7px;
+    color: rgba(255, 255, 255, .85);
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+/* 2. Full-width divider */
+footer#contact > hr {
+    order: 3;
+    width: 100%;
+    max-width: 1100px;
+    height: 1px;
+    flex-shrink: 0;
+    margin: 25px 0 22px;
+    border: 0;
+    background: rgba(255, 255, 255, .22);
+}
+
+/* 3. Copyright directly under the divider */
+footer#contact > .copyright {
+    order: 4;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0;
+    color: rgba(255, 255, 255, .72);
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* 4. Social heading and icons at the bottom */
+footer#contact .footer-social {
+    order: 5;
+    width: 100%;
+    margin: 24px 0 0;
+    text-align: center;
+}
+
+footer#contact .footer-social h4 {
+    margin: 0 0 18px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+footer#contact .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+}
+
+footer#contact .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;
+    min-height: 32px;
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+    transition: color .2s ease, transform .2s ease;
+}
+
+footer#contact .social-icons a:hover {
+    color: #9be5bc;
+    transform: translateY(-3px);
+}
+
+footer#contact .social-icons a:focus-visible {
+    outline: 2px solid #9be5bc;
+    outline-offset: 5px;
+}
+
+/* Tablet and mobile */
+@media (max-width: 600px) {
+    footer#contact {
+        padding: 30px 22px 25px;
+    }
+
+    footer#contact > h3 {
+        font-size: 19px;
+    }
+
+    footer#contact > p:not(.copyright) {
+        font-size: 13px;
+    }
+
+    footer#contact > hr {
+        margin: 22px 0 18px;
+    }
+
+    footer#contact > .copyright {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    footer#contact .footer-social {
+        margin-top: 23px;
+    }
+
+    footer#contact .social-icons {
+        gap: 22px;
+    }
+
+    footer#contact .social-icons a {
+        font-size: 24px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    footer#contact .social-icons a {
+        transition: none;
+    }
+}
+

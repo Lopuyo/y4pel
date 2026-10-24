@@ -20,7 +20,6 @@ const REPRESENTED_COUNTRIES = [
   { name: "Namibia", description: "Part of the African network.", iso: "NAM" },
   { name: "Madagascar", description: "Part of the African network.", iso: "MDG" }
 ];
-
 const representedByName = new Map(REPRESENTED_COUNTRIES.map(country => [country.name, country]));
 const countryCount = document.getElementById("countryCount");
 const countryName = document.getElementById("countryName");

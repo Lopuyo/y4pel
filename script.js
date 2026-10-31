@@ -111,3 +111,53 @@ function initGlobe() {
   if (reduceMotion.matches) globe.controls().autoRotate = false;
 }
 initGlobe();
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const menuToggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+
+    if (!menuToggle || !menu) return;
+
+    // Toggle mobile navigation
+    menuToggle.addEventListener("click", () => {
+        const isOpen = menu.classList.toggle("active");
+
+        menuToggle.setAttribute("aria-expanded", isOpen);
+        menuToggle.setAttribute(
+            "aria-label",
+            isOpen ? "Close navigation menu" : "Open navigation menu"
+        );
+
+        menuToggle.textContent = isOpen ? "✕" : "☰";
+    });
+
+    // Close menu when a navigation link is selected
+    menu.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            menu.classList.remove("active");
+
+            menuToggle.setAttribute("aria-expanded", "false");
+            menuToggle.setAttribute("aria-label", "Open navigation menu");
+
+            menuToggle.textContent = "☰";
+        });
+    });
+
+    // Close menu when clicking outside navigation
+    document.addEventListener("click", (event) => {
+        if (
+            !menu.contains(event.target) &&
+            !menuToggle.contains(event.target)
+        ) {
+            menu.classList.remove("active");
+            menuToggle.setAttribute("aria-expanded", "false");
+            menuToggle.textContent = "☰";
+        }
+    });
+});

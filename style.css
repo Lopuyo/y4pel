@@ -1443,3 +1443,58 @@ footer#contact .social-icons a:focus-visible {
     }
 }
 
+
+
+
+
+
+/* Mobile navigation */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: inherit;
+    padding: 8px;
+    z-index: 1001;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background: #ffffff;
+        padding: 15px 0;
+        margin: 0;
+        z-index: 1000;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    .navbar ul.active {
+        display: flex;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .navbar ul li a {
+        display: block;
+        width: 100%;
+    }
+}

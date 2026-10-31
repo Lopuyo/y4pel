@@ -1448,6 +1448,7 @@ footer#contact .social-icons a:focus-visible {
 
 
 
+
 /* Mobile navigation */
 .menu-toggle {
     display: none;
@@ -1458,6 +1459,7 @@ footer#contact .social-icons a:focus-visible {
     color: inherit;
     padding: 8px;
     z-index: 1001;
+    transition: color 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -1467,8 +1469,10 @@ footer#contact .social-icons a:focus-visible {
 
     .menu-toggle {
         display: block;
+        color: #14532D;
     }
 
+    /* Mobile dropdown menu */
     .navbar ul {
         display: none;
         position: absolute;
@@ -1476,25 +1480,58 @@ footer#contact .social-icons a:focus-visible {
         left: 0;
         width: 100%;
         flex-direction: column;
-        background: #ffffff;
+        background: #14532D;
         padding: 15px 0;
         margin: 0;
         z-index: 1000;
-        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        border-top: 3px solid #D4AF37;
+        border-radius: 0 0 8px 8px;
     }
 
+    /* Show menu when hamburger is pressed */
     .navbar ul.active {
         display: flex;
+        animation: menuSlideDown 0.3s ease;
     }
 
+    /* Menu items */
     .navbar ul li {
         width: 100%;
         text-align: center;
         padding: 12px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     }
 
+    .navbar ul li:last-child {
+        border-bottom: none;
+    }
+
+    /* Navigation links */
     .navbar ul li a {
         display: block;
         width: 100%;
+        color: #FFFFFF;
+        font-weight: 600;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    /* Hover and tap effects */
+    .navbar ul li a:hover,
+    .navbar ul li a:active {
+        color: #D4AF37;
+    }
+}
+
+/* Dropdown animation */
+@keyframes menuSlideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
